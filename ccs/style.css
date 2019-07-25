@@ -170,22 +170,16 @@ padding-left: 20px;
 }
 
 
-h1 { 
-   
-	font-family: Helvetica, sans-serif;
-	 background-image:url(images/header_banner.gif);
-	background-repeat:no-repeat;
-	background-position:center;
-	background-size: contain;
-
-
-
- width:230px;
- height:33px;
- margin:0 auto;
-
-
-
+h1 {    
+  font-family: Helvetica, sans-serif;
+  background-image:url(images/header_banner.gif);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: contain;
+  padding: 5px 5px 5px 5px;
+  width:500px;
+  height:100px;
+  margin:0 auto;
 }
 
 h2 { color: #100B3B;
