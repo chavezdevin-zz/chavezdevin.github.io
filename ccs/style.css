@@ -176,7 +176,8 @@ h1 {
   background-repeat:no-repeat;
   background-position:center;
   background-size: contain;
-  padding: 0px 5px 0px 5px;
+  padding: 10px;
+  position: absolute;
   width:500px;
   height:100px;
   margin:0 auto;
