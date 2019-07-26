@@ -1,6 +1,6 @@
 header, hgroup, nav, footer, figure, figcaption, aside, section, main, article { display: block; }
 
-body { background-color: rgba(55,52,52,1.00);
+body { background-color: #FFF;
       color:#FFF;
 	  font-family: Helvetica, sans-serif;
 	text-decoration: none;
@@ -12,7 +12,7 @@ body { background-color: rgba(55,52,52,1.00);
 		   width: 80%;
 		   min-width: 960px;
 		background-color: #5A5170;
-	padding-top: 15px;
+	padding-top: 25px;
 	clear: both;
 }
 header { background-color:  #373434;
@@ -111,7 +111,7 @@ nav a:hover { color: #062853;}
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #FFF;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -123,7 +123,7 @@ nav a:hover { color: #062853;}
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #FFF}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -159,7 +159,7 @@ li a {
 
 
 main { background-color: #FFFFFF;
-padding: 5px 5px 5px 5px;
+padding: 50px ;
 overflow:scroll;
              		   
 }
@@ -172,14 +172,8 @@ padding-left: 20px;
 
 h1 {    
   font-family: Helvetica, sans-serif;
-  background-image:url(images/header_banner.gif);
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size: contain;
-  padding: 10px;
-  position: absolute;
-  width:500px;
-  height:100px;
+  padding: 20px;
+  position: center;
   margin:0 auto;
 }
 
@@ -198,7 +192,7 @@ h2, h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 footer { 
 		text-align:center;
-       padding: 20px;
+       padding: 15px;
        font-size: 50%;
 	color: #000;
 	   font-style: italic;
@@ -230,7 +224,9 @@ table {
     width: 100%;
 	
 }
-tr:nth-child(even) {background-color: #D7D7D7}
+tr:nth-child(even) {background-color: #FFF
+
+}
 
 th {
     background-color: #5A5170;
@@ -320,4 +316,10 @@ th, td {
   footer { padding: 0; }
   #mobile { display: inline; }
   #desktop { display: none; }
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
