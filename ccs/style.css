@@ -1,7 +1,7 @@
 header, hgroup, nav, footer, figure, figcaption, aside, section, main, article { display: block; }
 
 body { background-color: rgba(55,52,52,1.00);
-      color:#000;
+      color:#FFF;
 	  font-family: Helvetica, sans-serif;
 	text-decoration: none;
 }
